@@ -8,6 +8,6 @@ const userSlice = createSlice({
   },
 });
 
-export default userSlice.reducer;
+export const usersReducer = userSlice.reducer;
 
 export const { logIn: logInActionCreator } = userSlice.actions;
