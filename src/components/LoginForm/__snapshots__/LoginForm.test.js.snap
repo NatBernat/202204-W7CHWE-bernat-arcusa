@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a loginForm component When it's rendered Then it should always match this snapshot 1`] = `
+<form
+  autoComplete="off"
+  className="sc-bczRLJ hyAoSz"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="username"
+  />
+  <input
+    id="username"
+    onChange={[Function]}
+    placeholder="Username"
+    value=""
+  />
+  <label
+    htmlFor="password"
+  />
+  <input
+    id="password"
+    onChange={[Function]}
+    placeholder="Password"
+    type="password"
+    value=""
+  />
+  <button
+    disabled={true}
+    type="submit"
+  >
+    Login
+  </button>
+</form>
+`;
