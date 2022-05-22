@@ -1,15 +1,11 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import LoginForm from "./components/LoginForm/LoginForm";
-import loginThunk from "./redux/thunks/usersThunks/usersThunks";
 
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (token) {
-      dispatch(loginThunk());
-    }
+    localStorage.getItem("token");
   }, [dispatch]);
 
   return (
